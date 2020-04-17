@@ -1,0 +1,203 @@
+body {
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  background-color: #f4acb7;
+}
+
+.main {
+  padding: 0px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.title {
+  color: #f4acb7;
+  font-size: 3em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 60px 5px 60px;
+  background-color: #696d7d;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: sticky;
+  top: 0;
+}
+
+.top {
+  font-size: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 40px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #f4acb7;
+}
+
+.links {
+  transition: 0.2s ease-out, color 0.2s ease-out;
+}
+
+.links:hover {
+  color: #ffcad4;
+  border-bottom: solid #ffcad4 5px;
+}
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+figure {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+figcaption {
+  font-weight: bold;
+  color: #696d7d;
+}
+.boys {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+blockquote {
+  width: 300px;
+  text-indent: 0;
+  height: 50px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.middle {
+  font-size: 1.5em;
+  color: #696d7d;
+}
+
+p {
+  margin: 0;
+  padding: 0px;
+}
+
+.block {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #ffcad4;
+  margin: 20px;
+  border-radius: 15px;
+  transition: 0.2s ease-out, color 0.2s ease-out;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.block:hover {
+  background-color: #696d7d;
+  color: #ffcad4;
+}
+
+.answer {
+  text-align: right;
+  color: #ffcad4;
+}
+
+.button {
+  padding: 20px 0px 0px 0px;
+  text-align: center;
+  display: flex;
+  color: #f4acb7;
+}
+
+.question {
+  background-color: #696d7d;
+  padding: 20px 20px 0px 20px;
+  margin: 0px;
+  width: 300px;
+  border-top-right-radius: 20px;
+}
+
+.answer1 {
+  color: #696d7d;
+  margin: 0px;
+  padding: 20px;
+  width: 300px;
+  transition: 0.2s ease-out, color 0.2s ease-out;
+}
+
+.yes {
+  padding: 13px 0px 0px 0px;
+  color: #696d7d;
+  text-align: center;
+  border: solid 5px #696d7d;
+  border-radius: 50px;
+  width: 120px;
+  margin: 0px 10px 0px 20px;
+  transition: 0.2s ease-out, color 0.2s ease-out;
+  background-color: #ffcad4;
+}
+.no {
+  padding: 13px 0px 0px 0px;
+  color: #696d7d;
+  text-align: center;
+  border: solid 5px #696d7d;
+  border-radius: 50px;
+  width: 120px;
+  margin: 0px 20px 0px 0px;
+  transition: 0.2s ease-out, color 0.2s ease-out;
+  background-color: #ffcad4;
+}
+
+.yes:hover {
+  color: white;
+  background-color: #14e715;
+}
+
+.no:hover {
+  color: white;
+  background-color: #ff6a6a;
+}
